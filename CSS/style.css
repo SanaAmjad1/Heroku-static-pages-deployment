@@ -1,0 +1,69 @@
+.top-bar {
+    background-color: green;
+    height: 1.8rem;
+    padding: 0;
+}
+
+.top-bar p {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.navbar {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+headerset {
+    padding-top: 220px;
+    box-sizing: border-box;
+}
+
+.bg-custom h2 {
+    color: orange;
+    font-size: 25px;
+}
+
+.bg-custom h1 {
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    height: 2.5rem;
+}
+
+.navbar-brand a {
+    color: purple;
+    font-size: 50;
+    font-weight: bold;
+}
+
+#carousel {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1)
+}
+
+.carousel-inner {
+    max-height: 38rem!important;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    transition: transform 1.0s ease;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+}
+
+.bg-custom {
+    background-color: rgba(0, 0, 0, .4);
+    Color: green;
+    border-radius: 1rem;
+}
